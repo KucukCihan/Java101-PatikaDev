@@ -48,7 +48,7 @@ public class notOrtalamaIF {
         sum = (math + physics + turkish + chemistry + music); // calculate sum & mean
         mean = (sum / (totalLessons - invalidLessons));  // use only valid lessons for mean
 
-        sonuc = (mean >= 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+        sonuc = (mean >= 55) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         // decide whether a or b case happens according to condition
 
         System.out.println("Ortalama: " + mean + "\t" + sonuc);
