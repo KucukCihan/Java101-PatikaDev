@@ -18,6 +18,7 @@ public class minMaxNumber {
 
             } else if (num > max) {           // if current number is bigger than max
                 max = num;                    // its maximum
+                
             } else if (num < min) {           // if current number is less than min
                 min = num;                    // its minimum
             }
